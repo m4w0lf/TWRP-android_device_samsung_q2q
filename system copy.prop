@@ -1,7 +1,0 @@
-#fbe.metadata.wrappedkey=true
-ro.board.platform=lahaina
-ro.boot.bootdevice=1d84000.ufshc
-ro.boot.dynamic_partitions=true
-ro.display.series=Samsung Z Fold 3
-ro.product.board=lahaina
-sys.usb.controller=a600000.dwc3
