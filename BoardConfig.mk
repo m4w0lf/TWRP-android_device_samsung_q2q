@@ -71,9 +71,9 @@ BOARD_PREBUILT_DTBOIMAGE := device/samsung/q2q/prebuilt/recovery.img-recovery_dt
 TARGET_PREBUILT_DTB := device/samsung/q2q/prebuilt/recovery.img-dtb
 TARGET_PREBUILT_KERNEL := device/samsung/q2q/prebuilt/recovery.img-kernel
 
-BOARD_INCLUDE_DTB_IN_BOOTIMG := true
+BOARD_INCLUDE_DTB_IN_BOOTIMG := 
 BOARD_INCLUDE_RECOVERY_DTBO := true
-BOARD_KERNEL_SEPARATED_DTBO := true
+BOARD_KERNEL_SEPARATED_DTBO := 
 BOARD_MKBOOTIMG_ARGS += --dtb $(TARGET_PREBUILT_DTB)
 BOARD_MKBOOTIMG_ARGS += --dtb_offset $(BOARD_DTB_OFFSET)
 endif
