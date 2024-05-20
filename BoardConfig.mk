@@ -94,11 +94,11 @@ BOARD_HAS_NO_REAL_SDCARD := true
 #BOARD_SUPER_PARTITION_GROUPS := samsung_dynamic_partitions
 #BOARD_SAMSUNG_DYNAMIC_PARTITIONS_SIZE := 4914095126
 #BOARD_SUPER_PARTITION_ERROR_LIMIT := 9312290860
-BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product odm
+#BOARD_SAMSUNG_DYNAMIC_PARTITIONS_PARTITION_LIST := system vendor product odm
 
 # System as root
-BOARD_ROOT_EXTRA_FOLDERS := cache carrier data_mirror efs keyrefuge linkerconfig metadata omr optics prism spu
-BOARD_SUPPRESS_SECURE_ERASE := true
+#BOARD_ROOT_EXTRA_FOLDERS := cache carrier data_mirror efs keyrefuge linkerconfig metadata omr optics prism spu
+#BOARD_SUPPRESS_SECURE_ERASE := true
 
 # Workaround for error copying vendor files to recovery ramdisk
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
