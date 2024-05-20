@@ -1,5 +1,7 @@
 DEVICE_PATH := device/samsung/q2q
 
+TARGET_SUPPORTS_64_BIT_APPS := false
+
 # For building with TWRP minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
 
