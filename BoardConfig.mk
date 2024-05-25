@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+TARGET_SUPPORTS_64_BIT_APPS := false
+
 DEVICE_PATH := device/samsung/q2q
 
 # For building with minimal manifest
