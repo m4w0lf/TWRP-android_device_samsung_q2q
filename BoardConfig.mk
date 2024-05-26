@@ -132,14 +132,18 @@ TW_USE_MODEL_HARDWARE_ID_FOR_DEVICE_ID := true
 TW_USE_NEW_MINADBD := true
 TW_USE_TOOLBOX := true
 
+# Encryption support
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_CRYPTO_FBE := true
+TW_INCLUDE_FBE := true
 
 # Portrait orientation:
 #
-TW_THEME := portrait_hdpi
-TW_ROTATION := 270
+#TW_THEME := portrait_hdpi
+#TW_ROTATION := 270
 
 # Landscape orientation:
 #
-#TW_THEME := landscape_hdpi
-#RECOVERY_TOUCHSCREEN_SWAP_XY := true
-#RECOVERY_TOUCHSCREEN_FLIP_Y := true
+TW_THEME := landscape_hdpi
+RECOVERY_TOUCHSCREEN_SWAP_XY := true
+RECOVERY_TOUCHSCREEN_FLIP_Y := true
